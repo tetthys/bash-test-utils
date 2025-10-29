@@ -1,4 +1,4 @@
-cat > /usr/local/sbin/test-utils << 'SH'
+cat > /usr/local/sbin/test-utils.sh << 'SH'
 #!/usr/bin/env bash
 # test-utils.sh - Jest-like testing for Bash (snake_case matchers only)
 # - Works under `set -euo pipefail` without abnormal exits
